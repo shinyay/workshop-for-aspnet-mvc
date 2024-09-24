@@ -125,6 +125,38 @@ dotnet run --project {project_path}
 |@vscode|Visual Studio Code のコマンドと機能に関するコンテキストをスコープ対象に設定<br>VS Code のコマンドやカスタマイズに関する回答を求めるときに役立つ|
 |@terminal|Visual Studio Code  のターミナルシェルとその内容をスコープ対象<br>ターミナルコマンドの作成やデバッグに関する回答を求めるときに役立つ|
 
+### Step 3: Code Suggestion with Comment
+
+![Image](https://github.com/user-attachments/assets/262cd3bf-aeb9-429f-8266-dec006c45663)
+
+[HomeController.cs](Controllers/HomeController.cs) に追加しているコメントを参考に今日の日付を Home 画面に表示するようにコード修正をしてください。
+
+![Image](https://github.com/user-attachments/assets/433a0598-9d3d-4301-80ca-489e2472f637)
+
+#### (Optional) Step 3.1: Display the Current Date and Time
+
+
+#### Hint
+
+コード提案に関するショートカットキー
+
+|操作内容|ショートカットキー|
+|---|---|
+|提案を受け入れる|`Tab`|
+|提案を拒否する|`Esc`|
+|次の提案を表示する|`Alt` + `]`|
+|前の提案を表示する|`Alt` + `[`|
+|提案に示された単語毎に受け入れる|`Ctrl` + `→`|
+|複数の提案を新しいタブに表示する|`Ctrl` + `Enter`|
+
+GitHub Copilot チャットの表示に関するショートカットキー
+
+|操作内容|ショートカットキー|
+|---|---|
+|チャット ビュー|`Ctrl` + `Alt` + `i`|
+|クイックチャット|`Ctrl` + `Shift` + `i`|
+|インラインチャット|`Ctrl` + `i`|
+
 ## Features
 
 - feature:1
