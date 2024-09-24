@@ -15,6 +15,7 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
+        // 今日の日付を取得するViewDataオブジェクトを作成
         return View();
     }
 
