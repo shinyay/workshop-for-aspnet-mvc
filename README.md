@@ -166,6 +166,80 @@ GitHub Copilot チャットの表示に関するショートカットキー
 |クイックチャット|`Ctrl` + `Shift` + `i`|
 |インラインチャット|`Ctrl` + `i`|
 
+### Step 4: Code Suggestion wirh Copilot Chat
+
+Git Hub Copilot チャットを使用して、画面のデザイン (CSS ファイル)を変更し、画面上にボタン（ダミーボタンでもよい）を追加するようにコード修正をしてください。
+
+例： Microsoft 風な色合いのCSSに変更してください。
+
+![Image](https://github.com/user-attachments/assets/c5954d31-b938-4b37-930f-fd7bbd2dfd89)
+
+<details>
+<summary>Step 4: Code Suggestion wirh Copilot Chat</summary>
+
+![Image](https://github.com/user-attachments/assets/65d5a329-916b-49cc-9ff4-a4d0a34b328f)
+
+```css
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #0078D4; /* Microsoft Blue */
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+  background-color: #F3F2F1; /* Microsoft Light Gray */
+  color: #323130; /* Microsoft Dark Gray */
+}
+
+/* Additional styles for Microsoft look and feel */
+.navbar {
+  background-color: #0078D4; /* Microsoft Blue */
+  color: white;
+}
+
+.navbar a {
+  color: white;
+}
+
+.btn-primary {
+  background-color: #0078D4; /* Microsoft Blue */
+  border-color: #0078D4;
+}
+
+.btn-primary:hover {
+  background-color: #005A9E; /* Darker Microsoft Blue */
+  border-color: #005A9E;
+}
+
+.btn-secondary {
+  background-color: #F3F2F1; /* Microsoft Light Gray */
+  border-color: #F3F2F1;
+  color: #323130; /* Microsoft Dark Gray */
+}
+
+.btn-secondary:hover {
+  background-color: #E1DFDD; /* Darker Microsoft Light Gray */
+  border-color: #E1DFDD;
+}
+```
+
+![Image](https://github.com/user-attachments/assets/d68155a2-0d87-431b-8656-670313903ece)
+</details>
+
 ## Features
 
 - feature:1
