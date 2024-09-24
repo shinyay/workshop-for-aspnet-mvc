@@ -139,6 +139,11 @@ dotnet run --project {project_path}
 
 ![Image](https://github.com/user-attachments/assets/a62ec671-e00f-4eac-b6d8-505715f23eff)
 
+#### (Optional) Step 3.2: Display the Current Date and Time in Japan Standard Time
+
+プロンプトや GitHub Copilot チャットを使用して、現在日時を日本標準時で表示するようにコード修正をしてください。
+
+![Image](https://github.com/user-attachments/assets/790e101b-1158-44e5-aa61-231449b45d3f)
 
 #### Hint
 
