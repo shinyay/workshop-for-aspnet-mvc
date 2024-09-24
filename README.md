@@ -106,6 +106,11 @@ workspace.sln
 <details>
 <summary>Step 2: Run the Project</summary>
 
+```code
+dotnet run --project {project_path}
+```
+
+- `{project_path}`: プロジェクトファイル (.csproj) のパス
 
 ![Image](https://github.com/user-attachments/assets/052b1e36-835f-4ed5-904c-c430f42a284d)
 </details>
