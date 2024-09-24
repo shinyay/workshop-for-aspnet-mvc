@@ -1,4 +1,4 @@
-# Title
+# GitHub Copilot Workshop for C#
 
 ## Description
 
