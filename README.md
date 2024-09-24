@@ -93,6 +93,33 @@ workspace.sln
 
 </details>
 
+### Step 2: Run the Project
+
+![Image](https://github.com/user-attachments/assets/96303dd5-1145-46b8-aca3-9bcef3833f25)
+
+
+```text
+@terminal このASP.NET プロジェクトを起動するコマンドについて教えてください。
+```
+
+
+<details>
+<summary>Step 2: Run the Project</summary>
+
+
+![Image](https://github.com/user-attachments/assets/052b1e36-835f-4ed5-904c-c430f42a284d)
+</details>
+
+### Notes: Chat Participants
+
+**Chat Participants** を使用して、プロンプトの範囲を特定のドメインに設定します。 Chat Participants を使用するには、チャット プロンプト ボックスに 「@」 と入力し、その後にChat Participants 名を入力します。 Chat Participants には次のものが含まれます。
+
+|Participants|説明|
+|---|---|
+|@workspace|ワークスペース内のコードに関するコンテキストをスコープ対象に設定<br>「プロジェクトの構造」「コードの相互関係」や「デザインパターン」などについて Copilot に回答を求めるときに役立つ|
+|@vscode|Visual Studio Code のコマンドと機能に関するコンテキストをスコープ対象に設定<br>VS Code のコマンドやカスタマイズに関する回答を求めるときに役立つ|
+|@terminal|Visual Studio Code  のターミナルシェルとその内容をスコープ対象<br>ターミナルコマンドの作成やデバッグに関する回答を求めるときに役立つ|
+
 ## Features
 
 - feature:1
