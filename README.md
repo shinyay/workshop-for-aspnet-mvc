@@ -240,6 +240,31 @@ body {
 ![Image](https://github.com/user-attachments/assets/d68155a2-0d87-431b-8656-670313903ece)
 </details>
 
+### Step 5: Explain Code with context
+
+コンテキスト変数を使用してコードの説明を出力してください。
+
+![Image](https://github.com/user-attachments/assets/440e521e-8b12-4811-9578-54fc080a8b7a)
+
+#### Hint
+
+スラッシュコマンド
+
+|コマンド|説明|
+|---|---|
+|`/explain`|コードの説明を表示する|
+|`/fix`|コードの修正を提案する|
+|`/tests`|テストコードを提案する|
+|`/new`|コードを作成する|
+
+コンテキスト変数
+
+|コンテキスト変数|説明|
+|---|---|
+|`#file`|ワークスペース内の指定されたファイルをコンテキストとして含める|
+|`#selection`|選択されたコードをコンテキストとして含める|
+|`#editor`|現在アクティブなエディタ内のコード全体をコンテキストとして含める|
+
 ## Features
 
 - feature:1
