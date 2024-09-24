@@ -135,6 +135,10 @@ dotnet run --project {project_path}
 
 #### (Optional) Step 3.1: Display the Current Date and Time
 
+コメントとして記載したプロンプトを変更して現在日時を表示するようにコード修正をしてください。
+
+![Image](https://github.com/user-attachments/assets/a62ec671-e00f-4eac-b6d8-505715f23eff)
+
 
 #### Hint
 
