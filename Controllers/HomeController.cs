@@ -16,6 +16,7 @@ public class HomeController : Controller
     public IActionResult Index()
     {
         // 今日の日付を取得するViewDataオブジェクトを作成
+        ViewData["Today"] = DateTime.Now.ToString("yyyy/MM/dd");
         return View();
     }
 
